@@ -24,7 +24,7 @@ def save_recording():
     print("Recording ended at", time.ctime(end_time))
     #convert time_t object to readable time
     datetimeObj = datetime.fromtimestamp(start_time)
-    readableTime = datetimeObj.strftime("%H-%M-%S")
+    readableTime = datetimeObj.strftime("%Y-%m-%d %H-%M-%S")
     file_name = os.path.join(save_directory, f"{readableTime}.wav")
     wf = wave.open(file_name, 'wb')
     wf.setnchannels(1)
