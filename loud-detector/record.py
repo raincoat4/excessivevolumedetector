@@ -1,4 +1,4 @@
-import pyaudio
+import pyaudio #i think this has a yellow squiggle for me because i installed python when i already use python3 -> still works though
 import time
 import struct
 import wave
