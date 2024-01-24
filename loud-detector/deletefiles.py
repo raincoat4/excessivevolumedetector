@@ -1,3 +1,4 @@
+#run this to delete all the recordings in the folder
 import os
 
 def delete():
